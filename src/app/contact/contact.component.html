@@ -12,7 +12,7 @@
             <div id="successMessage" *ngIf="isFormSubmitted" translate>Success! Thank you, for your message</div>
         </div>
         <div class="form-box">
-            <form name="contact-form" class="contact-form" method="post" data-netlify="true">
+            <form name="contact-form" class="contact-form" method="post" netlify>
                 <input type="hidden" name="form-name" value="contact-form" />
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name"><br>
@@ -23,7 +23,7 @@
                 <label for="message">Nachricht:</label><br>
                 <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
                 
-                <button type="submit" value="Absenden"></button>
+                <button type="submit" value="Absenden">submit</button>
               </form>
               
             <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-netlify="true">
