@@ -12,18 +12,18 @@
             <div id="successMessage" *ngIf="isFormSubmitted" translate>Success! Thank you, for your message</div>
         </div>
         <div class="form-box">
-            <form name="contact-form" class="contact-form" method="post" netlify>
+            <form name="contact-form" class="contact-form" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact-form" />
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
+                <label>Name:</label><br>
+                <input type="text" name="name" class="input" />
                 
-                <label for="email">E-Mail-Adresse:</label><br>
-                <input type="email" id="email" name="email"><br>
+                <label>EMail</label><br>
+                <input type="email" name="email" class="input" />
                 
-                <label for="message">Nachricht:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <label>Message</label><br>
+                <textarea name="message" class="message" placeholder="whatup"></textarea>
                 
-                <button type="submit" value="Absenden">submit</button>
+                <button type="submit">submit</button>
               </form>
               
             <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-netlify="true">
