@@ -12,7 +12,7 @@
             <div id="successMessage" *ngIf="isFormSubmitted" translate>Success! Thank you, for your message</div>
         </div>
         <div class="form-box">
-            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" netlify>
                 <div class="row mb-3">
                     <div class="col-sm-10">
                         <input ngClass="{'warningColor': !name.valid && name.touched}" #name="ngModel" minlength="4" [(ngModel)]="contactData.name" type="text" name="name" 
