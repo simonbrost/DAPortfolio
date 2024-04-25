@@ -26,7 +26,7 @@
                 <button type="submit">submit</button>
               </form>
               
-            <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-netlify="true">
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" action="post" data-netlify="true">
                 <div class="row mb-3">
                     <div class="col-sm-10">
                         <input ngClass="{'warningColor': !name.valid && name.touched}" #name="ngModel" minlength="4" [(ngModel)]="contactData.name" type="text" name="name" 
@@ -73,7 +73,7 @@
                         <img class="to-the-top" src="../../assets/img/general-icons/arrow-white.png" alt="up">
                     </a>
                 </div>
-            </form> -->
+            </form>
         </div>
     </div>
 
