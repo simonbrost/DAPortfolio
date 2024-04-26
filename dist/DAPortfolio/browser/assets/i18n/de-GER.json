@@ -1,0 +1,40 @@
+{
+    "language.english": "Englisch",
+    "language.german": "Deutsch",
+
+    "Let's talk!": "ansprechen!",
+    "Scroll down": "runter scrollen ",
+
+    "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.": "Hallo, ich bin ein Front-End-Entwickler aus Österreich. Ich bin 30 Jahre alt und lebe mit meiner Verlobten und unserem Hund im bescheidenen Dorf Bockfließ in der Nähe von Wien. Meine Stärken sind Engagement, Zuverlässigkeit, Kommunikationsfähigkeiten und Selbstreflexion.",
+    "I have developed my front-end skills primarily through my education at the Developer Academy in Munich, where I had the opportunity to work on numerous projects. A selection of these projects can be found in the Portfolio section.": "Ich habe meine Front-End-Fähigkeiten hauptsächlich durch meine Ausbildung an der Developer Academy in München entwickelt, wo ich die Möglichkeit hatte, an zahlreichen Projekten zu arbeiten. Eine Auswahl dieser Projekte finden Sie im Portfolio-Bereich.",
+    "I particularly enjoy the agile teamwork, the challenging nature of software development, and the wide spectrum of learning domains. I am eagerly looking forward to embarking on more projects!": "Besonders gerne arbeite ich im agilen Teamwork, der herausfordernden Natur der Softwareentwicklung und dem breiten Spektrum der Lernbereiche. Ich freue mich schon darauf, weitere Projekte anzugehen!",
+
+    "I have grown my frontend developments skills that have allowed me to create different real projects.": "Ich habe meine Frontend-Entwicklungsfähigkeiten erweitert, die es mir ermöglicht haben, verschiedene reale Projekte zu erstellen.",
+    "Get in touch": "Kontakt",
+
+    "Explore a selection of my work here- Interact with projects to see my skills in action.": "Erkunde hier eine Auswahl meiner Arbeiten - Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+
+    "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.": "Task-Manager, inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
+    "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and salsa bottles to fight against the killer chicken.": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Salsafalschen zu finden, um gegen das Killerhuhn zu kämpfen.",
+    "My Approach to the famous Pokedex. Based on the PokéAPI a simple library that provides and catalogues pokemon information.": "Mein Ansatz für das berühmte Pokédex. Basierend auf der PokéAPI ist es eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert.",
+
+    
+
+    "Got a problem to solve?": "Auf der Suche nach Lösungen?",
+    "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.": "Kontaktieren Sie mich über dieses Formular. Ich interessiere mich dafür, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+    "Need a Frontend developer?": "Sie brauchen einen Frontend Entwickler?",
+    "Contact me!":  "Kontaktieren Sie mich!",
+    "Success! Thank you, for your message": "Erfolgreiche Eingabe! Danke für Ihre Nachricht!",
+    "Your name is required": "Bitte Namen eingeben",
+    "Your email is required": "Bitte Mailadresse eingeben",
+    "Your message is empty": "Bitte Nachricht eingeben",
+    "I've read the": "Ich habe die", 
+    "privacy policy": "Datenschutzerklärung",
+    "and agree to the processing of my data as outlined": "gelesen und akzeptiert",
+    "Send message": "Text senden",
+    "Your name": "Ihr Name",
+    "Your email": "Ihre Email",
+    "Your message": "Ihre Nachricht",
+    
+    "Imprint": "Impressum"
+}

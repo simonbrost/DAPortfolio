@@ -1,0 +1,39 @@
+{
+    "language.english": "English",
+    "language.german": "German",
+
+    "Let's talk!": "Let's talk!",
+    "Scroll down": "Scroll down",
+
+    "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.": "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.",
+    "I have developed my front-end skills primarily through my education at the Developer Academy in Munich, where I had the opportunity to work on numerous projects. A selection of these projects can be found in the Portfolio section.": "I have developed my front-end skills primarily through my education at the Developer Academy in Munich, where I had the opportunity to work on numerous projects. A selection of these projects can be found in the Portfolio section.",
+    "I particularly enjoy the agile teamwork, the challenging nature of software development, and the wide spectrum of learning domains. I am eagerly looking forward to embarking on more projects!": "I particularly enjoy the agile teamwork, the challenging nature of software development, and the wide spectrum of learning domains. I am eagerly looking forward to embarking on more projects!",
+
+    "My skills": "My skills",
+    "I have grown my frontend developments skills that have allowed me to create different real projects.": "I have grown my frontend developments skills that have allowed me to create different real projects.",
+    "Get in touch": "Get in touch",
+
+    "Explore a selection of my work here- Interact with projects to see my skills in action.": "Explore a selection of my work here- Interact with projects to see my skills in action.",
+    "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and salsa bottles to fight against the killer chicken.": "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and salsa bottles to fight against the killer chicken.",
+    "My Approach to the famous Pokedex. Based on the PokéAPI a simple library that provides and catalogues pokemon information.": "My Approach to the famous Pokedex. Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
+
+    "Got a problem to solve?": "Got a problem to solve?",
+    "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+    "Need a Frontend developer?": "Need a Frontend developer?",
+    "Contact me!":  "Contact me!",
+    "Success! Thank you, for your message": "Success! Thank you, for your message",
+    "Your name is required": "Your name is required",
+    "Your email is required": "Your email is required",
+    "Your message is empty": "Your message is empty",
+    "I've read the": "I've read the",
+    "privacy policy": "privacy policy",
+    "and agree to the processing of my data as outlined": "and agree to the processing of my data as outlined",
+    "Send message": "Send message",
+    "Your name": "Your name",
+    "Your email": "Your email",
+    "Your message": "Your message",
+    
+    "Imprint": "Imprint"
+}
+

@@ -11,5 +11,6 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './privacy-policy.component.scss'
 })
 export class PrivacyPolicyComponent {
-
+  ngOnInit() {
+    window.scrollTo(0, 0); }
 }
