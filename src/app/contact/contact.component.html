@@ -9,7 +9,6 @@
             <div>
                 <span translate>Need a Frontend developer? <b translate>Contact me!</b></span>
             </div>
-            <div id="successMessage" *ngIf="isFormSubmitted" translate>Success! Thank you, for your message</div>
         </div>
         <div class="form-box">
             <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
@@ -55,6 +54,7 @@
                     <button type="submit" class="btn btn-primary" [disabled]="!contactForm.valid || !isAgreed" translate>Send message</button>
                 </div>
                 <div class="to-the-top-container">
+                    <div id="successMessage" *ngIf="isFormSubmitted" translate>Success! Thank you, for your message</div>
                     <a href="#atf">
                         <img class="to-the-top" src="../../assets/img/general-icons/arrow-white.png" alt="up">
                     </a>
