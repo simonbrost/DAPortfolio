@@ -85,20 +85,20 @@
 
 .my-skills-btn {
     align-self: flex-end;
-    background-color: $aqua_blue;
+    background-color: $purple_blue;
     color: white;
     font-size: 1.5rem;
     width: 16rem;
     height: 4rem;
     border-radius: 5%/20%;
     border: none;
-
-    transition: transform 1000ms;
+    background-image: linear-gradient(to right, $aqua_blue 100%, $aqua_blue 100%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    transition: background-position 0.5s ease;
 
     &:hover {
-        transform: translateY(-1.75rem);
-        transition: transform 250ms;
-        background-color: $purple_blue;
+        background-position: -100% 0;
     }
 }
 
