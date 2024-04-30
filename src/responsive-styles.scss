@@ -542,8 +542,17 @@
         }
     }
 
+    //---------------ABOUT-ME--------------------
+    .about-me-left {
+        padding: 0px 32px;
+    }
+
     //----------------SKILLS--------------
     .my-skills-section {
+
+        .my-skills-right {
+            padding: 0px 32px;
+        }
 
         .bg-three {
             bottom: -640px;

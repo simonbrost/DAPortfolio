@@ -15,10 +15,11 @@ export class HeaderComponent {
 
   constructor(private translateService: TranslateService) { }
 
-  public toggleLanguage() {
-    this.currentLanguage = this.currentLanguage === 'en-US' ? 'de-GER' : 'en-US';
-    this.translateService.use(this.currentLanguage);
-}
+  toggleLanguage() {
+    const currentLanguage = this.translateService.currentLang;
+    const newLanguage = currentLanguage === 'en-US' ? 'de-GER' : 'en-US';
+    this.translateService.use(newLanguage);
+  }
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;

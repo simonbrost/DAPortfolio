@@ -31,6 +31,14 @@
     }
 }
 
+#english-container {
+    display: block;
+}
+
+#deutscher-container {
+    display: none;
+}
+
 @media screen and (max-width: 1920px) {
     .privacy-section div {
         padding-left: 100px !important;
