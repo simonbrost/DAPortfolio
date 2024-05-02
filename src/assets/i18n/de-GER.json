@@ -1,6 +1,7 @@
 {
     "language.english": "Englisch",
     "language.german": "Deutsch",
+    "english": "deutsch",
     "Let's talk!": "ansprechen!",
     "Scroll down": "runter scrollen ",
     "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.": "Hallo, ich bin ein Front-End-Entwickler aus Österreich. Ich bin 30 Jahre alt und lebe mit meiner Verlobten und unserem Hund im bescheidenen Dorf Bockfließ in der Nähe von Wien. Meine Stärken sind Engagement, Zuverlässigkeit, Kommunikationsfähigkeiten und Selbstreflexion.",
@@ -27,5 +28,18 @@
     "Your name": "Ihr Name",
     "Your email": "Ihre Email",
     "Your message": "Ihre Nachricht",
-    "Imprint": "Impressum"
+    "Imprint": "Impressum",
+
+    "Privacy Policy": "Datenschutzerklärung",
+    "1. Data protection at a glance": "1. Datenschutz auf einen Blick",
+    "General Information": "Allgemeine Informationen",
+    "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data are all data with which you can be personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below this text.": "Die folgenden Informationen bieten einen einfachen Überblick darüber, was mit Ihren persönlichen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Detaillierte Informationen zum Thema Datenschutz finden Sie in unserer Datenschutzerklärung, die unterhalb dieses Textes aufgeführt ist.",
+    "Data collection on this website": "Datenerfassung auf dieser Website",
+    "Who is responsible for data collection on this website?": "Wer ist verantwortlich f&uuml;r die Datenerfassung auf dieser Website?",
+    "Data processing on this website is carried out by the website operator. You can find their contact details in the 'Responsible Party' section of this privacy policy.": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten k&ouml;nnen Sie dem Abschnitt 'Hinweis zur Verantwortlichen Stelle' in dieser Datenschutzerkl&auml;rung entnehmen.",
+    "How do we collect your data?": "Wie erfassen wir Ihre Daten?",
+    "Your data is collected in part by providing it to us. This may be data that you enter in a contact form, for example.": "Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.&nbsp;B. um Daten handeln, die Sie in ein Kontaktformular eingeben.",
+    "Other data is automatically collected by our IT systems when you visit the website. These are mainly technical data (e.g. internet browser, operating system, or time of page access). This data is collected automatically as soon as you enter this website.": "Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.&nbsp;B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.",
+    "What do we use your data for?": "Wof&uuml;r nutzen wir Ihre Daten?",
+    "Some of the data is collected to ensure the proper functioning of the website. Other data may be used to analyze your user behavior.": "Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur Analyse Ihres Nutzerverhaltens verwendet werden."
 }

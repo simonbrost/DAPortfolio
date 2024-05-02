@@ -1,6 +1,7 @@
 {
     "language.english": "English",
     "language.german": "German",
+    "english": "english",
     "Let's talk!": "Let's talk!",
     "Scroll down": "Scroll down",
     "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.": "Hi, I am a Front-End developer based Austria. I am 30 years old and live with my fiancée and our dog in the modest village of Bockfließ near Vienna. My strengths include commitment, reliability, communication skills, and self-reflection.",
@@ -28,5 +29,18 @@
     "Your name": "Your name",
     "Your email": "Your email",
     "Your message": "Your message",
-    "Imprint": "Imprint"
+    "Imprint": "Imprint",
+
+    "Privacy Policy": "Privacy Policy",
+    "1. Data protection at a glance": "1. Data protection at a glance",
+    "General Information": "General Information",
+    "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data are all data with which you can be personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below this text.": "The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data are all data with which you can be personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below this text.",
+    "Data collection on this website": "Data collection on this website",
+    "Who is responsible for data collection on this website?": "Who is responsible for data collection on this website?",
+    "Data processing on this website is carried out by the website operator. You can find their contact details in the 'Responsible Party' section of this privacy policy.": "Data processing on this website is carried out by the website operator. You can find their contact details in the 'Responsible Party' section of this privacy policy.",
+    "How do we collect your data?": "How do we collect your data?",
+    "Your data is collected in part by providing it to us. This may be data that you enter in a contact form, for example.": "Your data is collected in part by providing it to us. This may be data that you enter in a contact form, for example.",
+    "Other data is automatically collected by our IT systems when you visit the website. These are mainly technical data (e.g. internet browser, operating system, or time of page access). This data is collected automatically as soon as you enter this website.": "Other data is automatically collected by our IT systems when you visit the website. These are mainly technical data (e.g. internet browser, operating system, or time of page access). This data is collected automatically as soon as you enter this website.",
+    "What do we use your data for?": "What do we use your data for?",
+    "Some of the data is collected to ensure the proper functioning of the website. Other data may be used to analyze your user behavior.": "Some of the data is collected to ensure the proper functioning of the website. Other data may be used to analyze your user behavior."
 }
