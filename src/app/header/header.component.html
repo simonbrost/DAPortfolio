@@ -26,8 +26,8 @@
         <div class="name">
             <a href="#atf">S<span class="dot">i</span>mo<span class="arch">n</span></a>
         </div>
-        <button (click)="toggleLanguage()" class="language-btn-mobile">
-            {{ currentLanguage === 'en-US' ? 'English' : 'Deutsch' }}
+        <button (click)="toggleLanguage()" class="language-btn-mobile" translate>
+                english
         </button>
         <div class="m-links">
             <button class="burger-menu" (click)="toggleMenu()" [ngClass]="{ 'open': isMenuOpen }">
