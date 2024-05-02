@@ -2,7 +2,7 @@
 
 <section class="imprint-section">
 
-    <div class="imprint-english">
+    <div *ngIf="!isGerman()" class="imprint-english">
         <h4>Impressum</h4>
         <p><b>Information and Disclosure according to &sect;5 (1) ECG, &sect; 25 MedienG, &sect; 63 GewO, and &sect;
                 14 UGB</b></p>
@@ -28,7 +28,7 @@
         <p>Source: <b><a href="https://www.fairesrecht.at/">fairesRecht.at</a></b></p>
     </div>
 
-    <div class="imprint-german">
+    <div *ngIf="isGerman()" class="imprint-german">
         <h4>Impressum</h4>
         <p><b>Informationen und Offenlegung gemäß &sect;5 (1) ECG, &sect; 25 MedienG, &sect; 63 GewO und &sect; 14
                 UGB</b></p>

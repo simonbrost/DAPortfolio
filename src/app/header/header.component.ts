@@ -26,11 +26,7 @@ export class HeaderComponent {
     this.translateService.use(newLanguage);
     this.currentLanguage = newLanguage;
 
-    this.router.navigate(['/privacy']).then(() => {
-      window.location.reload();
-    }).catch(err => {
-      console.error('Fehler beim Navigieren zur Privacy-Policy-Komponente:', err);
-    });
+    window.location.reload();
   }
 
   toggleMenu() {
