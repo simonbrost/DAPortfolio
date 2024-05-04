@@ -9,6 +9,7 @@ import { PortfolioComponent } from '../../portfolio/portfolio.component';
 import { ProjectComponent } from '../../project/project.component';
 import { ContactComponent } from '../../contact/contact.component';
 import { FooterComponent } from '../../footer/footer.component';
+import { LanguageService } from '../../language.service';
 
 
 @Component({
@@ -31,4 +32,9 @@ import { FooterComponent } from '../../footer/footer.component';
 })
 export class MainContentComponent {
 
+  constructor(private languageService: LanguageService) {}
+
+  toggleLanguage() {
+    this.languageService.toggleLanguage();
+  }
 }

@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
-import { CommonModule, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-imprint',
@@ -12,15 +13,17 @@ import { CommonModule, NgIf } from '@angular/common';
   templateUrl: './imprint.component.html',
   styleUrl: './imprint.component.scss'
 })
-export class ImprintComponent {
-
+export class ImprintComponent implements OnInit {
   currentLanguage: string | undefined;
 
-  constructor() {}
+  constructor(private languageService: LanguageService) {}
 
   ngOnInit() {
     window.scrollTo(0, 0); 
-    this.currentLanguage = localStorage.getItem('lang') || 'en-US'
+    this.currentLanguage = this.languageService.getCurrentLanguage();
+    this.languageService.languageChanged.subscribe(() => {
+      this.currentLanguage = this.languageService.getCurrentLanguage();
+    });
   }
 
   isGerman(): boolean {

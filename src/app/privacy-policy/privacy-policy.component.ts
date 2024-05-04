@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
-import { CommonModule, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-privacy-policy',
@@ -12,14 +13,16 @@ import { CommonModule, NgIf } from '@angular/common';
   styleUrl: './privacy-policy.component.scss'
 })
 export class PrivacyPolicyComponent {
-  
   currentLanguage: string | undefined;
 
-  constructor() {}
+  constructor(private languageService: LanguageService) {}
 
   ngOnInit() {
     window.scrollTo(0, 0); 
-    this.currentLanguage = localStorage.getItem('lang') || 'en-US'
+    this.currentLanguage = this.languageService.getCurrentLanguage();
+    this.languageService.languageChanged.subscribe(() => {
+      this.currentLanguage = this.languageService.getCurrentLanguage();
+    });
   }
 
   isGerman(): boolean {

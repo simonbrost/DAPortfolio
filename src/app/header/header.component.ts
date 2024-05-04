@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { Router } from '@angular/router';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-header',
@@ -12,21 +12,11 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
   isMenuOpen: boolean = false;
-  currentLanguage: string = 'en-US';
 
-  constructor(private translateService: TranslateService, private router: Router) {
-    this.currentLanguage = localStorage.getItem('lang') || 'en-US';
-    this.translateService.use(this.currentLanguage);
-   }
+  constructor(private languageService: LanguageService) {}
 
-   toggleLanguage() {
-    const currentLanguage = this.translateService.currentLang;
-    const newLanguage = currentLanguage === 'en-US' ? 'de-GER' : 'en-US';
-    localStorage.setItem('lang', newLanguage);
-    this.translateService.use(newLanguage);
-    this.currentLanguage = newLanguage;
-
-    window.location.reload();
+  toggleLanguage() {
+    this.languageService.toggleLanguage();
   }
 
   toggleMenu() {
