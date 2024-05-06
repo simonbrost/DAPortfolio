@@ -51,6 +51,10 @@
         }
     }
 
+    .my-skills-right {
+        padding-left: 80px !important;
+    }
+
     .contact-section {
         h1 {
             padding-left: 5rem;
@@ -62,6 +66,34 @@
     }
 }
 
+@media screen and (max-width: 1920px) {
+
+.about-me-section {
+    padding-bottom: 124px !important;
+}
+
+    .my-skills-section {
+
+        padding-top: 124px !important;
+        padding-bottom: 124px !important;
+
+        .my-skills-left {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 20px !important;
+            padding-right: 80px !important;
+
+            div {
+                text-align: center !important;
+            }
+        }
+    }
+    .portfolio-section {
+        padding-top: 124px !important;
+        padding-bottom: 124px !important;
+    }
+}
+
 @media screen and (max-width: 1630px) {
 
     .about-me-right {
@@ -69,6 +101,12 @@
 
         &::after {
             display: none;
+        }
+    }
+
+    .my-skills-right {
+        h1 {
+            font-size: clamp(1.5rem, 1rem + 10vw, 6rem);
         }
     }
 }
@@ -111,8 +149,12 @@
         }
 
         .my-skills-left {
-            width: auto;
-            padding-right: 0 !important;
+            padding: 0 !important;
+            width: 100%;
+
+            div {
+                padding-bottom: 40px !important;
+            }
         }
     }
 
@@ -158,15 +200,16 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
-    
-#desktop-header {
-    display: none;
-}
+@media screen and (max-width: 1210px) {
 
-#mobile-header {
-    display: flex !important;
-}
+    #desktop-header {
+        display: none;
+    }
+
+    #mobile-header {
+        display: flex !important;
+    }
+
 }
 
 @media screen and (max-width: 980px) {
@@ -273,6 +316,25 @@
 
 @media screen and (max-width: 740px) {
 
+    .atf-section {
+        padding-bottom: 62px !important;
+    }
+    .about-me-section {
+        padding-top: 62px !important;
+        padding-bottom: 62px !important;
+    }
+    .my-skills-section {
+        padding-top: 62px !important;
+        padding-bottom: 62px !important;
+    }
+    .portfolio-section {
+        padding-top: 62px !important;
+        padding-bottom: 62px !important;
+    }
+    .contact-section {
+        padding-top: 62px !important;
+    }
+
     //----------ATF--------------------
 
     .atf-links {
@@ -311,9 +373,6 @@
     }
 
     //------------MY-SKILLS---------------
-    .my-skills-section {
-        padding-top: 124px !important;
-    }
 
     .my-skills-left {
         width: auto !important;
@@ -420,7 +479,7 @@
 
     //----------------SKILLS--------------
     .my-skills-section {
-        padding-bottom: 0 !important;
+        padding-bottom: 0 20 0 20 !important;
         gap: 2rem;
 
         .mobile-d-none {
@@ -434,34 +493,38 @@
     }
 
     .my-skills-right {
-        padding-right: 3rem;
+        justify-content: center !important;
+        align-self: center !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
 
         h1 {
+            align-self: center !important;
+
             &::after {
-                width: 2rem !important;
+                width: 0 !important;
             }
         }
 
         div {
             max-width: 360px !important;
+            text-align: center !important;
+            align-self: center !important;
+        }
+
+        button {
+            display: none;
         }
     }
 
     .my-skills-left {
-        width: auto !important;
+        width: 100% !important;
         gap: 0 !important;
         padding-right: 0 !important;
+        grid-template-columns: repeat(2, 1fr) !important;
 
         div {
-            flex: 0 0 33.33% !important;
             padding-bottom: 32px;
-        }
-    }
-
-    .my-skills-right {
-
-        button {
-            display: none;
         }
     }
 
