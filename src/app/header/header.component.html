@@ -26,24 +26,22 @@
         <div class="name">
             <a href="#atf">S<span class="dot">i</span>mo<span class="arch">n</span></a>
         </div>
-        <button (click)="toggleLanguage()" class="language-btn-mobile" translate>
+        <div class="m-header-right">
+            <button (click)="toggleLanguage()" class="language-btn-mobile" translate>
                 english
-        </button>
-        <div class="m-links">
-            <button class="burger-menu" (click)="toggleMenu()" [ngClass]="{ 'open': isMenuOpen }">
-                <span></span>
-                <span></span>
-                <span></span>
             </button>
-            <div 
-            class="m-links-menu" 
-            [ngClass]="{ 'show-menu': isMenuOpen}"
-            (click)="toggleMenu()"
-            >
-                <a href="#about" translate>About me</a>
-                <a href="#skills" translate>Skills</a>
-                <a href="#portfolio" translate>Portfolio</a>
-                <a href="#contact" translate>Contact</a>
+            <div class="m-links">
+                <button class="burger-menu" (click)="toggleMenu()" [ngClass]="{ 'open': isMenuOpen }">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="m-links-menu" [ngClass]="{ 'show-menu': isMenuOpen}" (click)="toggleMenu()">
+                    <a href="#about" translate>About me</a>
+                    <a href="#skills" translate>Skills</a>
+                    <a href="#portfolio" translate>Portfolio</a>
+                    <a href="#contact" translate>Contact</a>
+                </div>
             </div>
         </div>
     </div>

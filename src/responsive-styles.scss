@@ -598,6 +598,11 @@
 
 @media screen and (max-width: 400px) {
 
+    .m-header-right {
+        display: flex;
+        gap: 0px !important;
+        }
+
     //---------------ATF--------------------
     .atf-links {
         &::before {
